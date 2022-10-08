@@ -2,24 +2,38 @@
 <html>
     <head>
         <title>Personal details page</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <style>
+            h3{
+                color: black;
+                background-color: gray;
+            }
+
+            .details,h3{
+                font-family: 'Poppins', sans-serif;
+            }
+        </style>
     </head>
 
     <body>
         <h3>Family Details</h3>
-        <ul>
-            <li>Father name: Sanjay Namdeo Kadam</li>
-            <li>MOther name: Nita Sanjay Kadam</li>
-            <li>Sister name: Sonali Sanjay Kadam</li>
+        <ul class="details">
+            <li>Father name:<span style="color: rgb(234, 14, 14);"> Sanjay Namdeo Kadam</li></span>
+            <li>MOther name: <span style="color: rgb(234, 14, 14);">Nita Sanjay Kadam</li></span>
+            <li>Sister name:<span style="color: rgb(234, 14, 14);"> Sonali Sanjay Kadam</li></span>
         </ul>
 
         <h3>Language:</h3>
         <ol>
+            <span style="color: green;">
             <li>Marathi</li>
             <li>English</li>
             <li>Hindi</li>
+        </span>
         </ol>
 
-        <h3>Hobby:</h3>
+        <h3 >Hobby:</h3>
         <ul>
             <li>I like to play Cricket</li>
             <p>To see my fav cricketer image<a href="cricketgod.jpg" target="_self">click hear</a></p>
