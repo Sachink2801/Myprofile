@@ -10,18 +10,27 @@
                 background-color: gray;
             }
 
-            .details,h3{
+            .details li,h3{
                 font-family: 'Poppins', sans-serif;
+                list-style: square;
+                
+            }
+
+            .mark li{
+                     list-style: square;
+                     padding: 5px;
             }
         </style>
     </head>
 
     <body>
-        <h3>Family Details</h3>
+        <h3>Family Details:</h3>
         <ul class="details">
+        <b>
             <li>Father name:<span style="color: rgb(234, 14, 14);"> Sanjay Namdeo Kadam</li></span>
             <li>MOther name: <span style="color: rgb(234, 14, 14);">Nita Sanjay Kadam</li></span>
             <li>Sister name:<span style="color: rgb(234, 14, 14);"> Sonali Sanjay Kadam</li></span>
+        </b>
      
         <h3>Language:</h3>
         <ol>
@@ -32,12 +41,14 @@
         </span>
         </ol>
 
-        <h3 >Hobby:</h3>
-        <ul>
+        <h3>Hobby:</h3>
+        <ul class="mark">
+            <b>
             <li>I like to play Cricket</li>
             <span>To see my fav cricketer image <a href="cricketgod.jpg" target="_self">click hear</a></span>
             <li>Also i like Photography </li>
             <span>To watch my Photography <a href="birdvideo.mp4" target="_self" type="mp4">click hear</a></span>
+        </b>
         </ul>
     </body>
 </html>
